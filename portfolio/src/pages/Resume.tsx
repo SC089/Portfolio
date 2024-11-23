@@ -1,7 +1,9 @@
+import ResumePDF from '../assets/Resume.pdf';
+
 const Resume: React.FC = () => (
     <section id="resume">
       <h2>Resume</h2>
-      <a href="/resume.pdf" download>
+      <a href={ResumePDF} download="Resume.pdf">
         Download Resume
       </a>
       <ul>
