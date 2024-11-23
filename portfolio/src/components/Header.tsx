@@ -1,10 +1,10 @@
 import Navbar from "./navbar";
 
-const Header = () => (
-    <header>
-        <h1>Sebastian Casadevall</h1>
-        <Navbar />
-    </header>
+const Header: React.FC = () => (
+  <header>
+    <h1>Portfolio</h1>
+    <Navbar />
+  </header>
 );
 
 export default Header;
